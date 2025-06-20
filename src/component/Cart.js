@@ -18,7 +18,7 @@ useEffect(() => {
   
 
   
-  fetch(`http://localhost:9070/cart?userId=${userId}`)
+  fetch(`https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/cart?userId=${userId}`)
     .then(res => res.json())
     .then(data => {
       setCartItems(data);
