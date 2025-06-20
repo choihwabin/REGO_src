@@ -27,7 +27,7 @@ function Mypage() {
       navigate('/login');
       return;
     }
-    axios.get(`http://localhost:9070/mypage/${userid}`)
+    axios.get(`https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/mypage/${userid}`)
       .then(res => {
         setSellingList(res.data);
         setSellingChecked(Array(res.data.length).fill(false));
