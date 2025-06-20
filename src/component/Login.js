@@ -35,7 +35,7 @@ function Login(props) {
   const handleSubmit = async e => {
     e.preventDefault();
     try{
-      const res = await axios.post(`http://localhost:9070/login`, form);
+      const res = await axios.post(`https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/login`, form);
 
       if(res.data && res.data.token){
       localStorage.setItem('token', res.data.token);
