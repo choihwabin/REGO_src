@@ -74,7 +74,7 @@ function Join() {
       return;
     }
     try{
-      await axios.post('http://localhost:9070/join',{
+      await axios.post('https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/join',{
         userid:form.userid,
         password:form.password,
         nickname:form.nickname,
