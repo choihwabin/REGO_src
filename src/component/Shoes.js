@@ -33,7 +33,7 @@ return (
   <section className='shoes-video'>
     <h2>video 영역</h2>
     <video muted autoPlay loop>
-      <source src={`${process.env.PUBLIC_URL}/images/video/shoes.mp4`} type="video/mp4"/>
+      <source src={`${process.env.PUBLIC_URL}/images/sub1/shoes/shoes.mp4`} type="video/mp4"/>
     </video>
   </section>
 
