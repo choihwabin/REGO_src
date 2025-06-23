@@ -5,7 +5,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import dummy from '../data/Shoes.json'
-
+impoty ShoesVideo from '../asset/shoes.mp4';
 const TabList = ({click, setClick}) => (
   <ul className='tag_box'>
     {['sneakers','boots','sandals'].map(type => (
@@ -33,7 +33,7 @@ return (
   <section className='shoes-video'>
     <h2>video 영역</h2>
     <video muted autoPlay loop>
-      <source src={`${process.env.PUBLIC_URL}/images/sub1/shoes/shoes.mp4`} type="video/mp4"/>
+      <source src={ShoesVideo} type="video/mp4"/>
     </video>
   </section>
 
