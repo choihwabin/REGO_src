@@ -29,7 +29,7 @@ return (
   <section className='beauty-video'>
     <h2>video 영역</h2>
     <video muted autoPlay loop>
-      <source src={`${process.env.PUBLIC_URL}/video/beauty.mp4`} type="video/mp4"/>
+      <source src="https://your-bucket.s3.amazonaws.com/video/beauty.mp4"  type="video/mp4" />
     </video>
   </section>
 
