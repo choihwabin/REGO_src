@@ -116,7 +116,7 @@ const toDelete = currentList
 
 Promise.all(
   toDelete.map(id =>
-    axios.delete(`http://localhost:9070/selling/${id}`)
+    axios.delete(`https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/selling/${id}`)
   )
 )
   .then(() => {
