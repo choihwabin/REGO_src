@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
-import dummy from '../data/Beauty.json'
+import dummy from '../data/Beauty.json';
+import BeautyVideo from '../asset/beauty.mp4';
 
 const TabList = ({click, setClick}) => (
   <ul className='tag_box'>
@@ -29,7 +30,7 @@ return (
   <section className='beauty-video'>
     <h2>video 영역</h2>
     <video muted autoPlay loop>
-      <source src={`${process.env.PUBLIC_URL}/images/sub1/beauty/beauty.mp4`} type="video/mp4" />
+      <source src={BeautyVideo} type="video/mp4" />
     </video>
   </section>
 
