@@ -5,7 +5,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import dummy from '../data/Shoes.json'
-impoty ShoesVideo from '../asset/shoes.mp4';
+import ShoesVideo from '../asset/shoes.mp4';
 const TabList = ({click, setClick}) => (
   <ul className='tag_box'>
     {['sneakers','boots','sandals'].map(type => (
