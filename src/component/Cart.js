@@ -179,7 +179,7 @@ useEffect(() => {
 
                 await Promise.all(
                   selectedNos.map(no =>
-                    fetch(`http://localhost:9070/cart/${no}`, { method: 'DELETE' })
+                    fetch(`https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/cart/${no}`, { method: 'DELETE' })
                   )
                 );
                 navigate('/');
