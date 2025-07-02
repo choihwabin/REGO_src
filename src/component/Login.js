@@ -78,7 +78,9 @@ function Login(props) {
       <div className="login-box">
         {Mobile ? <div className='back' onClick={handleBack}><FontAwesomeIcon icon={faAngleLeft}/></div> : ''}
         <h2 className="login-title">
-        <img src={`${process.env.PUBLIC_URL}/images/login_logo.jpg`} alt="로고이미지" className="logo-img" />
+          <Link to='/' title='홈으로 가기'>
+            <img src={`${process.env.PUBLIC_URL}/images/login_logo.jpg`} alt="로고이미지" className="logo-img" />
+          </Link>
         </h2>
 
         <form onSubmit={handleSubmit}>
