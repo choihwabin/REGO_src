@@ -62,7 +62,7 @@ const HeaderSub=({cartCount, setCartCount})=>{
         <div className='navi'>
           <nav>
             <ul className='gnb'>
-              <li>
+              <li className='gnb_li'>
                 <Link to='/clothing' title='옷'>CLOTHING</Link>
                 <ul className='lnb'>
                   <li><Link to='/clothing' title='TOP'>TOP</Link></li>
@@ -71,7 +71,7 @@ const HeaderSub=({cartCount, setCartCount})=>{
                 </ul>
               </li>
 
-              <li>
+              <li className='gnb_li'>
                 <Link to='/shoes' title='신발'>SHOES</Link>
                 <ul className='lnb'>
                   <li><Link to='/shoes' title='sneakers'>SNEAKERS</Link></li>
@@ -80,7 +80,7 @@ const HeaderSub=({cartCount, setCartCount})=>{
                 </ul>
               </li>
 
-              <li>
+              <li className='gnb_li'>
                 <Link to='/bag' title='가방'>BAG</Link>
 
                 <ul className='lnb'>
@@ -90,7 +90,7 @@ const HeaderSub=({cartCount, setCartCount})=>{
                 </ul>
               </li>
 
-              <li>
+              <li className='gnb_li'>
                 <Link to='/accessory' title='악세서리'>ACCESSORY</Link>
                 <ul className='lnb'>
                   <li><Link to='/accessory' title='necklace'>NECKLACE</Link></li>
@@ -99,7 +99,7 @@ const HeaderSub=({cartCount, setCartCount})=>{
                   </ul>
               </li>
 
-              <li>
+              <li className='gnb_li'>
                 <Link to='/beauty' title='뷰티'>BEAUTY</Link>
                 <ul className='lnb'>
                   <li><Link to='/beauty' title='skincare'>SKINCARE</Link></li>
